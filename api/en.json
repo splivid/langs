@@ -1,0 +1,28 @@
+{
+    "errors": {
+        "internalServerError": "Internal Server Error",
+        "invalidRequest": "Invalid request, make sure the following is met: {1}",
+        "valueStringError": "Make sure all the values included in your request are strings",
+        "userNotFound": "User Not Found",
+        "auth": {
+            "userAlreadyLoggedIn": "You are already logged in, please log out before you complete this action",
+            "notLoggedIn": "This action requires authentication",
+            "signup": {
+                "notEnoughDetails": "Make sure you include the username, email_address, password, displayname, first_name, and last_name.",
+                "accountTaken": {
+                    "usernameTaken": "That username is taken.",
+                    "emailTaken": "That email address is already taken.",
+                    "emailAndUsernameTaken": "That email address and username is taken."
+                }
+            },
+            "login": {
+                "notEnoughDetails": "Make sure you include the userid, and password in the request body",
+                "noUserFound": "No username exists with that email address",
+                "wrongPassword": "Wrong Password"
+            },
+            "updateDetails": {
+                "usernameTaken": "That username is taken!"
+            }
+        }
+    }
+}
